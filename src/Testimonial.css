@@ -1,0 +1,99 @@
+.swiper-heading{
+    text-align: center;
+    margin-bottom: 3rem;
+    
+}
+
+.swiper-heading h3{
+    font-weight: 700;
+}
+.swiper-container{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.benjaminvonseeger.com/wp-content/uploads/2017/01/Advantage-Profit6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 3rem;
+    margin-bottom: 4rem;
+}
+.quot-icon{
+    font-size: 2rem;
+    color: #0000005c;
+}
+.testimonial-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 5rem 20%;
+    padding: 0 10rem;
+    height: 350px;
+    border-radius: 12px;
+    background-color: #ffffff45;
+    padding-top: 2rem;
+}
+
+.image{
+    text-align: center;
+}
+.image img{
+    width: 15%; 
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 50%;
+}
+.testimonial-text{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.picture{
+    padding: 3rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 998px){
+    .swiper-container {
+        width: 100%;
+    }
+    .picture img{
+        padding: 0 3rem;
+         text-align: center;
+         width: 100%;
+     }
+     .testimonial-container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+     }
+     .testimonial-text p{
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 768px) {
+    .swiper-container{
+      width: 100%;
+    }
+    .testimonial-container {
+       width: 100%;
+       padding: 0;
+       margin: 0;
+    }
+    .picture{
+        padding: 0;
+        margin-bottom: 3rem;
+    }
+    .picture img{
+       padding: 0 3rem;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .testimonial-text p{
+        font-size: 10px;
+    }
+}
